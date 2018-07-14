@@ -1,6 +1,37 @@
-.one.column {
-    margin:1px;
+body {
+    padding:10%;
 }
-#total {
-    margin:1px;
+.container {
+    margin: auto;
+    max-width: 300px;
+    min-width: 200px;
+}
+.display {
+    background-color:rgb(192, 184, 184);
+    min-height:70px;
+}
+.calculator {
+    display:flex;
+    flex-wrap:wrap;
+    height: 300px;
+}
+.button {
+    background-color: rgb(129, 179, 236);
+    width:25%;
+    height: 20%;
+}
+#all-clear {
+    background-color: rgb(250, 70, 70);
+}
+#clear {
+    background-color:  rgb(250, 70, 70);;
+}
+#zero {
+ width:50%;   
+}
+#equal {
+    background-color:  rgb(250, 70, 70);
+    position:relative;
+    top:-60px;
+height: 40%;
 }
