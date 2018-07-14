@@ -9,6 +9,8 @@ body {
 .display {
     background-color:rgb(192, 184, 184);
     min-height:70px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px
 }
 .calculator {
     display:flex;
@@ -16,22 +18,32 @@ body {
     height: 300px;
 }
 .button {
-    background-color: rgb(129, 179, 236);
+    background-color:rgba(0, 0, 0, 0.938);
+    color: rgb(241, 183, 208);
     width:25%;
     height: 20%;
 }
+.button:hover{
+    border-color: rgb(241, 183, 208);
+    border: 3px solid;
+}
 #all-clear {
-    background-color: rgb(250, 70, 70);
+    background-color:  rgb(241, 183, 208);
+    color: black;
 }
 #clear {
-    background-color:  rgb(250, 70, 70);;
+    background-color:   rgb(241, 183, 208);
+    color: black;
 }
 #zero {
- width:50%;   
+    width:50%; 
+    border-bottom-left-radius: 25px  
 }
 #equal {
-    background-color:  rgb(250, 70, 70);
+    background-color:   rgb(241, 183, 208);
+    color: black;
     position:relative;
     top:-60px;
-height: 40%;
+    height: 40%;
+    border-bottom-right-radius: 25px
 }
