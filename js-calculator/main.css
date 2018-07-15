@@ -10,7 +10,9 @@ body {
     background-color:rgb(192, 184, 184);
     min-height:70px;
     border-top-left-radius: 25px;
-    border-top-right-radius: 25px
+    border-top-right-radius: 25px;
+    margin: 0%;
+    text-align: center;
 }
 .calculator {
     display:flex;
