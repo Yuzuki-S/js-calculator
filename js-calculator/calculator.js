@@ -13,8 +13,8 @@ let entries = [];
 let temp = ''
 function onClickCalculate(){
   let value = this.innerHTML;
- 
-  
+
+
   if(value === "AC"){
     display[0].innerHTML = "";
     entries=[];
@@ -54,10 +54,12 @@ function calculateAnswer(){
     } else if (symbol === '/') {
        total /= nextNum; 
     }
-    
+
+
     i++;
-    
   } 
+
+  
   display[0].innerHTML = total
   temp = ""
   entries = []
