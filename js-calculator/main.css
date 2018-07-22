@@ -1,19 +1,24 @@
 body {
     padding:10%;
-}
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}    
 .container {
     margin: auto;
     max-width: 300px;
     min-width: 200px;
 }
-.display {
+.displayArea {
     background-color:rgb(192, 184, 184);
     min-height:70px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     margin: 0%;
+}
+#display{
     text-align: center;
-    line-height: 80px;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;   
 }
 .calculator {
     display:flex;
@@ -25,6 +30,8 @@ body {
     color: rgb(241, 183, 208);
     width:25%;
     height: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
 }
 .button:hover{
     border-color: rgb(241, 183, 208);

@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', createEventListeners)
 
-let display = document.getElementsByClassName("display")
+let display = document.getElementById("display")
 
 function createEventListeners(){
   let buttons = document.getElementsByClassName("button")
@@ -16,20 +16,20 @@ function onClickCalculate(){
 
 
   if(value === "AC"){
-    display[0].innerHTML = "";
+    display.innerHTML = " ";
     entries=[];
     temp = '';
   } else if(value === "CE") {
-    display[0].innerHTML = "";
+    display.innerHTML = "";
     temp = ''
   } else if (value === "="){
     calculateAnswer()
   } else {
     if (!isNaN(value) || value === '.') {
-      display[0].innerHTML = display[0].innerHTML + value;
+      display.innerHTML = display.innerHTML + value;
       temp += value
     } else {
-      display[0].innerHTML = ""
+      display.innerHTML = ""
       entries.push(temp);
       entries.push(value);
       temp = '';
@@ -60,7 +60,7 @@ function calculateAnswer(){
   } 
 
   
-  display[0].innerHTML = total
+  display.innerHTML = total
   temp = ""
   entries = []
   total = 0
