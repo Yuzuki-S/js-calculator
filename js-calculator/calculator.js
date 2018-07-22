@@ -29,7 +29,7 @@ function onClickCalculate(){
       display.innerHTML = display.innerHTML + value;
       temp += value
     } else {
-      display.innerHTML = ""
+      display.innerHTML = display.innerHTML + value;
       entries.push(temp);
       entries.push(value);
       temp = '';
